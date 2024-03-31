@@ -11,6 +11,8 @@
 		C5BBF18F2BB76ED4008271F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BBF18E2BB76ED4008271F4 /* ContentView.swift */; };
 		C5BBF1912BB76ED6008271F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BBF1902BB76ED6008271F4 /* Assets.xcassets */; };
 		C5BBF1942BB76ED6008271F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BBF1932BB76ED6008271F4 /* Preview Assets.xcassets */; };
+		C5BBF19B2BB90684008271F4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BBF19A2BB90684008271F4 /* Card.swift */; };
+		C5BBF19D2BB9081D008271F4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5BBF19C2BB9081D008271F4 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C5BBF18E2BB76ED4008271F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C5BBF1902BB76ED6008271F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5BBF1932BB76ED6008271F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C5BBF19A2BB90684008271F4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		C5BBF19C2BB9081D008271F4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				C5BBF18C2BB76ED4008271F4 /* FlashzillaApp.swift */,
 				C5BBF18E2BB76ED4008271F4 /* ContentView.swift */,
+				C5BBF19A2BB90684008271F4 /* Card.swift */,
+				C5BBF19C2BB9081D008271F4 /* CardView.swift */,
 				C5BBF1902BB76ED6008271F4 /* Assets.xcassets */,
 				C5BBF1922BB76ED6008271F4 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5BBF18F2BB76ED4008271F4 /* ContentView.swift in Sources */,
+				C5BBF19B2BB90684008271F4 /* Card.swift in Sources */,
+				C5BBF19D2BB9081D008271F4 /* CardView.swift in Sources */,
 				C5BBF18D2BB76ED4008271F4 /* FlashzillaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,8 +286,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +315,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
